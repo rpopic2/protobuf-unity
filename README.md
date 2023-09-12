@@ -18,6 +18,8 @@ https://github.com/rpopic2/protobuf-unity.git
 
 4. Paste the git url and click the `Add` button.
 
+5. In Project Settings > Player > Other Settings > Api Compatibility Level, ensure it is set to `.Net Standard 2.1`
+
 You might also want to install the Protocol buffers compiler (`protoc`) to generate code from your `.proto` files.
 
 To install `protoc`, please follow the official installation instructions provided in the [protobuf GitHub repository](https://github.com/protocolbuffers/protobuf).
