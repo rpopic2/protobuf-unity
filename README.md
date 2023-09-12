@@ -29,3 +29,11 @@ To install `protoc`, please follow the official installation instructions provid
 [Official protobuf GitHub repository](https://github.com/protocolbuffers/protobuf)
 
 [Official C# tutorial](https://protobuf.dev/getting-started/csharptutorial/)
+
+# Motivation
+
+I wanted to use protobuf in my Unity project, and I found that it could be only installed via nuget packages, which do not work with Unity.
+So I searched for other protobuf plugins for Unity, and it either had too much abstraction around it, or provided GUIs that I didn't really care.
+This package includes only the protobuf dll binaries that Google provided, and nothing more.
+I removed duplicate dlls for different frameworks, because Unity complained about them.
+That's all. This is the protobuf as-is.
