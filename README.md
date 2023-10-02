@@ -30,7 +30,7 @@ To install `protoc`, please follow the official installation instructions provid
 
 [Official C# tutorial](https://protobuf.dev/getting-started/csharptutorial/)
 
-# Motivation
+## Motivation
 
 I wanted to use protobuf in my Unity project, and I found that it could be only installed via nuget packages, which do not work with Unity.
 So I searched for other protobuf plugins for Unity, and it either had too much abstraction around it, or provided GUIs that I didn't really care.
